@@ -1,0 +1,51 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>SetRecipe</servlet-name>
+  	<display-name>SetRecipe</display-name>
+  	<description></description>
+  	<servlet-class>com.aditya.web.SetRecipe</servlet-class>
+  </servlet>
+ 
+  <servlet>
+  	<servlet-name>ShowRecipe</servlet-name>
+  	<display-name>ShowRecipe</display-name>
+  	<description></description>
+  	<servlet-class>com.aditya.web.ShowRecipe</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ViewRecipe</servlet-name>
+  	<display-name>ViewRecipe</display-name>
+  	<description></description>
+  	<servlet-class>com.aditya.web.ViewRecipe</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SearchRecipe</servlet-name>
+  	<display-name>SearchRecipe</display-name>
+  	<description></description>
+  	<servlet-class>com.aditya.web.SearchRecipe</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SetRecipe</servlet-name>
+  	<url-pattern>/setRecipe</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>ShowRecipe</servlet-name>
+  	<url-pattern>/ShowRecipe</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewRecipe</servlet-name>
+  	<url-pattern>/viewRecipe</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+   	<servlet-name>SearchRecipe</servlet-name>
+   	<url-pattern>/SearchRecipe</url-pattern>
+   </servlet-mapping>
+  
+</web-app>
